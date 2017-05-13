@@ -1,4 +1,4 @@
-#Readme
+# Readme
 This Readme file describes the analysis performed by **run_analysis.R** on the UCI Har Dataset (see Sources & License) and output to **tidyData.csv**. 
 
 The script takes as an input the training and test data from the 30 subject experiment, combines them, and outputs a widely formatted tidy data set with many averages from the measurements of each subject and each activity they performed during the experiment. 
