@@ -5,7 +5,7 @@ The script takes as an input the training and test data from the 30 subject expe
 
 ## How the script works
 
-run\_analysis.R starts by loading the training measurements from X\_train.txt into an empty dataframe. The feature names are also loaded from features.txt and used as the variable names for that dataframe. The respective rows for subjects and activities are also loaded from Y_train.txt and subject\_train.txt respectively. The script then makes use of **grep()** to keep only the required variables. Finally, the columns with the rows of activites and subjects are added to the dataframe with measurements.
+run\_analysis.R starts by loading the training measurements from X\_train.txt into an empty dataframe. The feature names are also loaded from features.txt and used as the variable names for that dataframe. The respective rows for subjects and activities are also loaded from Y_train.txt and subject\_train.txt respectively. The script then makes use of **grep()** to keep only the variables of mean and standard deviation. Since the instructions were vague, the assumption here is that the required  variables are the ones that end in mean() and std(). Finally, the columns with the rows of activites and subjects are added to the dataframe with measurements.
 
 The above proceedure is repeated for the test data using X\_test.txt, Y\_test.txt and   subject\_test.txt as appropriate.
 
